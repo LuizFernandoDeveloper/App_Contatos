@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---->
-    <link rel="shortcut icon" href="." type="image/x-icon">
+    
+    <!--Adding the navigation bar icon-->
+    <link rel="shortcut icon" href="./imagens/icons/android-chrome-512x512.png" type="image/svg">
+
+    <!--Adding the reset.css file-->
+    <link rel="stylesheet" href="./stylesCss/reset.css">
+
+    <!--Adding the main.css file-->
+    <link rel="stylesheet" href="./stylesCss/main.css">
+    
+    <!--Adding the header.css files-->
+    <link rel="stylesheet" href="./stylesCss/header.css">
+    
+    <!--Adding the table.css file-->
+    <link rel="stylesheet" href="./stylesCss/table.css">
+
+    <!--Adding  font from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
     <title>Contatos</title>
+
 </head>
 <body>
-    
+    <main>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="./imagens/Logo-App-Contatos.svg" alt="Logo Contatos">
+                </div>
+                <form >
+                    <input type="text" placeholder="Nome do Contato" required title="Digite o Nome do contato">
+                    <input type="number" placeholder="Numero do contato" required title="Digite o numero do contato">
+                </form>
+                <button type="submit" title="salvar contatos" ><img src="./imagens/botao_salvar.svg" alt="Botão salvar"></button>
+            </nav>
+            <article>
+                <h1>Contatos Salvos</h1>
+                <div class="contato">
+                    <div class="img-contatos">
+                        <img src="./imagens/icons/Logo-Barra-Contatos3.svg" alt="logo contatos salvos">
+                    </div>                   
+                </div>
+                <div class="contato">
+                    <div class="img-contatos">
+                        <img src="./imagens/icons/Logo-Barra-Contatos3.svg" alt="logo contatos salvos">
+                    </div>
+                </div>
+            </article>
+            <a href="#" class="Button">button</a>
+        </div>
+    </main>
 </body>
 </html>

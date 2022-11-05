@@ -1,0 +1,17 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #680094 ;
+}
+main .container{
+    
+    margin: auto;
+    margin-top: 60px;
+    background-color: #9400D3;
+    width: 790px;
+    height: 860px;
+    border-radius: 60px;
+    box-shadow: -50px 40px 60px;
+
+}

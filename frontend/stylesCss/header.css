@@ -1,0 +1,80 @@
+nav{
+
+    padding-top: 20px;
+    display: flex;
+
+}
+
+.logo{
+
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-top: -350pxpx;
+    margin-left: 5px;
+    
+}
+
+.logo img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+form{
+
+    width: 400px;
+
+}
+
+form  input{
+    
+    outline: none;
+    width: 400px;
+    height: 45px;
+    border-radius: 22px;
+    border-color:  white;
+    margin: 10px;
+    box-shadow: -40px 30px 100px black;
+    background-color: #BA19FF;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 20px;
+    color: white;
+
+}
+
+
+form  input::placeholder{
+
+    color: white;
+
+}
+
+button{
+    
+    position:relative;
+    background-color: transparent;
+    border: none;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-left: 40px;
+    
+
+}
+button:hover{
+
+    cursor: pointer;
+}
+
+button img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
